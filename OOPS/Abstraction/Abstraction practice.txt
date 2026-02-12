@@ -1,0 +1,97 @@
+
+
+Practise Questions Based on Interface : 
+
+
+Calculator Interface
+Create an interface Calculator with methods:
+add()
+subtract()
+multiply()
+divide()
+Implement it in class SimpleCalculator.
+
+
+ Shape Interface
+Create interface Shape:
+area()
+perimeter()
+Implement for:
+Circle
+Rectangle
+
+
+Vehicle Interface
+Create interface Vehicle:
+start()
+stop()
+Implement in:
+Car
+Bike
+
+Employee Interface
+Create interface Employee
+calculateSalary()
+Implement for:
+FullTimeEmployee
+PartTimeEmployee
+
+
+Printer Interface
+Create interface Printer:
+print()
+Implement:
+InkjetPrinter
+LaserPrinter
+
+
+
+
+
+Payment Gateway
+Create interface Payment:
+pay(double amount)
+Implement:
+UPI
+CreditCard
+DebitCard
+
+
+
+Bank System
+Create interface Bank:
+deposit()
+withdraw()
+checkBalance()
+Implement:
+SBI
+HDFC
+
+
+Notification System
+Create interface Notification:
+sendMessage(String msg)
+Implement:
+EmailNotification
+SMSNotification
+WhatsAppNotification
+
+
+
+Remote Control
+Create interface RemoteControl:
+powerOn()
+powerOff()
+Implement:
+TV
+AC
+
+
+
+ Authentication System
+Create interface Authentication:
+login()
+logout()
+Implement:
+GoogleAuth
+FacebookAuth

@@ -1,0 +1,29 @@
+Todays Lecture Agenda : 
+ 
+
+1> Single Inheritance (One Parent , One Child) : Car(P) --> Bmw(C)
+
+2> Multilevel Inheritance (One Parent - child/parent - child) (A-->B-->C) : GF --> F --> Son
+
+3> Multiple Inheritance (multiple Parent and One child)  (Father , Mother --> Son) 
+imp Note : multiple inheritance cannot achieved through the classes(Diamond Problem Occurred) Solution -> (achieved through the Interfaces)       (Confusion <--> Ambiguity Problem)
+
+
+4> Hierarchical Inheritance : (One Parent and Multiple Childs)/(A(P) --> B(C),C(C),D(C)..) (GrandFather --> Father , GF --> Uncle , GF --> Aunt)
+for example : Meta(P) --> Instagram(C) , WhatsApp(C) , FaceBook(C)
+
+
+5> Hybrid Inheritance : Mix of All
+
+
+
+HomeWork : 
+
+
+Google : Gmail, GMap , GDrive 
+
+Bank : Saving Account 
+
+Amazon : AmazonShopping : AmazonPrime  
+
+mix of All : Family 

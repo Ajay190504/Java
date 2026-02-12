@@ -1,0 +1,43 @@
+1️⃣ Telecom Application
+
+Create a Single Inheritance program where TelecomService is the parent class and Jio is the child class.
+
+2️⃣ Railway Reservation System
+
+Design a Hierarchical Inheritance structure where RailwaySystem is the parent class and Passenger, Ticket, and Train are child classes.
+
+3️⃣ E-Commerce Product System
+
+Write a Multilevel Inheritance program for
+Product → ElectronicProduct → Mobile.
+
+4️⃣ Payment System (Classes Only)
+
+Create a Single Inheritance example where Payment is the parent class and UPIPayment is the child class.
+
+5️⃣ University Management System
+
+Design a Hierarchical Inheritance structure where University is the parent class and Student, Professor, and Staff are child classes.
+
+6️⃣ Library Management System
+
+Write a Multilevel Inheritance program for
+Library → Section → Book.
+
+7️⃣ Hotel Booking System
+
+Create a Single Inheritance program where Hotel is the parent class and LuxuryHotel is the child class.
+
+8️⃣ Transport System
+
+Design a Hierarchical Inheritance structure for
+Transport → Bus, Metro, Auto.
+
+9️⃣ Insurance System
+
+Write a Multilevel Inheritance program for
+Insurance → HealthInsurance → FamilyHealthPlan.
+
+🔟 Company HR System
+
+Create a Single Inheritance example where Company is the parent class and Manager is the child class
