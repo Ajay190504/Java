@@ -1,4 +1,4 @@
-package myproject;
+package statementCRUD;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

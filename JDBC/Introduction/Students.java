@@ -1,4 +1,4 @@
-package jdbc;
+package Introduction;
 
 import java.sql.Statement;
 import java.sql.Connection;
@@ -9,16 +9,13 @@ public class Students {
 
     public static void main(String[] args) throws Exception {
         
-	// 1. Register and Load Driver 
-	Class.forName("com.mysql.cj.jdbc.Driver");
-
-        // 2. Creating a connection
+        // 1. Creating a connection
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "root");
         
-        // 3. Creating a statement 
+        // 2. Creating a statement 
         Statement s = con.createStatement();
         
-        // 4. Inserting Data into Table Students
+        // 3. Inserting Data into Table Students
 //        int i = s.executeUpdate("insert into students (id, name, age, city) values (1, 'Ajay', 21, 'Pune')");
 //        
 //        if(i > 0) {
@@ -27,7 +24,7 @@ public class Students {
 //            System.err.println("Some Error Occurred! Data not Added!!....");
 //        }
         
-//        // 5. Deleting data from Table Students
+//        // 4. Deleting data from Table Students
 //        int i2 = s.executeUpdate("DELETE FROM students WHERE id=1 LIMIT 1");
 //        if(i2 > 0) {
 //            System.out.println("Data Deleted Successfully....");
@@ -35,7 +32,7 @@ public class Students {
 //            System.err.println("Some Error Occurred! Data not deleted!!....");
 //        }
         
-//        // 6. Updating data in Table Students
+//        // 5. Updating data in Table Students
         int i3 = s.executeUpdate("UPDATE students SET city='Barshi' WHERE name='Ajay'");
         if(i3 > 0) {
             System.out.println("Data Updated Successfully....");
@@ -43,7 +40,7 @@ public class Students {
             System.err.println("Some Error Occurred! Data not updated!!....");
         }
         
-        // 7. Always close database connection (Moved inside the method)
+        // 4. Always close database connection (Moved inside the method)
         con.close();
     }
 }
